@@ -1,14 +1,14 @@
 :root {
     --primary:    #610707;
-    --secondary:  #0a6adf;
-    --dark:       #616f8c;
-    --darker:     #030817;
-    --light:      #d8dcf1;
+    --secondary:  #c3d1e2;
+    --dark:       #6f7b93;
+    --darker:     #c5c9d8;
+    --light:      #030d40;
     --gray:       #cf1313;
     --success:    #781004;
-    --warning:    #e5ded7;
-    --danger:     #b91c1c;
-    --card-bg:    rgba(0, 2, 4, 0.8);
+    --warning:    #0a4fa9;
+    --danger:     #ebdfdf;
+    --card-bg:    rgba(242, 245, 247, 0.8);
 }
 
 * {
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-    color: var(--light) !important;
+    color: var(black) !important;
     font-weight: 500;
     margin: 0 10px;
     position: relative;
@@ -109,14 +109,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .typed-text {
-    color: var(--secondary);
+    color: var(black);
     font-weight: 700;
 }
 
 .hero-img {
     position: relative;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 200px;
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(48, 24, 24, 0.4);
     border: 2px solid rgba(106, 17, 203, 0.3);
